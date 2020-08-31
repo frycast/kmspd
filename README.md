@@ -6,6 +6,16 @@ This repository holds code and data for the paper [k-means on Positive Definite 
 
 The script [R/SAR_application.R](R/SAR_application.R) calls functions that save their intermediary results in Rds format. These functions check for previously saved results before executing. So, most computationally intensive tasks need not be repeated more than once -- making for easier / quicker interactive exploratory analysis! 
 
+### Setup
+
+After cloning this repo, and before running any scripts, download the files from the [Zenodo archive](https://zenodo.org/record/4008883) and place them in [SAR_app_data/MG](SAR_app_data/MG) without changing their file names. Download links:
+
+```R
+"https://zenodo.org/record/4008883/files/CC_sub_norm.tif?download=1"
+"https://zenodo.org/record/4008883/files/VH_sub_norm.tif?download=1"
+"https://zenodo.org/record/4008883/files/VV_sub_norm.tif?download=1"
+```
+
 ### Structure
 
 * [R/SAR_application.R](R/SAR_application.R) is the script that produces all results in the paper.
